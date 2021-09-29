@@ -317,6 +317,8 @@
         </dependency>
 
     </dependencies>
+
+
     <build>
         <sourceDirectory>${basedir}/src</sourceDirectory>
         <outputDirectory>${basedir}/WebRoot/WEB-INF/classes</outputDirectory>
@@ -329,13 +331,6 @@
             </resource>
         </resources>
         <plugins>
-            <plugin>
-                <artifactId>maven-war-plugin</artifactId>
-                <configuration>
-                    <webappDirectory>${basedir}/WebRoot</webappDirectory>
-                    <warSourceDirectory>${basedir}/WebRoot</warSourceDirectory>
-                </configuration>
-            </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
